@@ -6,6 +6,6 @@ setInterval(() => {
     setTimeout(() => {
       p('.ui-button').click(s=1);
       console.log("✓ "+new Date().toLocaleTimeString());
-    }, 1e3 + ((new Date)%1e4))
+    }, 1e3+9e3*Math.random()
   }
 }, 100)
