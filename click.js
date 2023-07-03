@@ -22,7 +22,7 @@ setInterval(() => {
         s = 0;
         setTimeout(() => {
             p('.ui-button').click(s=1);
-            console.log("✓ "+new Date().toLocaleTimeString());
+            console.log("✓");
         }, 1e3+9e3*Math.random())
     }
 }, 100)
