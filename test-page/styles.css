@@ -1,0 +1,29 @@
+div {
+    white-space: nowrap;
+}
+
+#player {
+    border: 1px dashed black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cle-dialog__container {
+    background-color: lavender;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    white-space: normal;
+}
+
+.cle-dialog {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+.cle-dialog__button {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
